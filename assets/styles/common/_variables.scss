@@ -1,10 +1,21 @@
-// Glyphicons font path
-$icon-font-path:        "../fonts/";
 $img:        "../images/";
 
-// Grid settings
-$main-sm-columns:       12;
-$sidebar-sm-columns:    4;
+// Grid
+$screen-xs-size: 100%;
+
+$screen-sm-size: 768px;
+$screen-sm-breakpoint: 768px;
+
+$screen-md-size: 960px;
+$screen-md-breakpoint: 960px;
+
+$screen-lg-size: 1440px;
+$screen-lg-breakpoint: 1440px;
+
+// Bourbon Neat Breakpoints
+$screen-sm: new-breakpoint(min-width $screen-sm-breakpoint 12);
+$screen-md: new-breakpoint(min-width $screen-md-breakpoint 12);
+$screen-lg: new-breakpoint(min-width $screen-lg-breakpoint 12);
 
 // Colors
 $brand-primary:         #27ae60;
