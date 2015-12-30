@@ -3,6 +3,9 @@
 use Roots\Sage\Setup;
 use Roots\Sage\Wrapper;
 
+if (isset($sitepress)) {
+    load_theme_textdomain('lw',  get_template_directory() . '/lang');
+}
 ?>
 
 <!doctype html>
