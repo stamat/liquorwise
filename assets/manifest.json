@@ -1,0 +1,53 @@
+{
+    "dependencies": {
+        "main.js": {
+            "files": [
+                "scripts/main.js"
+            ],
+            "main": true
+        },
+        "main.css": {
+            "files": [
+                "styles/main.scss"
+            ],
+            "bower": [
+                "malihu-custom-scrollbar-plugin"
+            ],
+            "main": true
+        },
+        "editor-style.css": {
+            "files": [
+                "styles/editor-style.scss"
+            ]
+        },
+        "jquery.js": {
+            "bower": [
+                "jquery"
+            ]
+        },
+        "modernizr.js": {
+            "bower": [
+                "modernizr"
+            ]
+        },
+        "enquire.js": {
+            "bower": [
+                "enquire"
+            ]
+        },
+        "slick-carousel.js": {
+            "bower": [
+                "slick-carousel"
+            ]
+        },
+        "scrollbar.js": {
+            "bower": [
+                "jquery-mousewheel",
+                "malihu-custom-scrollbar-plugin"
+            ]
+        }
+    },
+    "config": {
+        "devUrl": "http://fleuristes.dev"
+    }
+}
