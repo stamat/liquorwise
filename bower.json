@@ -2,11 +2,14 @@
   "name": "liquorwise",
   "homepage": "https://github.com/stamat/liquorwise",
   "authors": [
-    "Nikola Stamatovic <nikola.stamatovic@stamat.info>"
+    "Nikola Stamatovic <stamat@bmo.io>"
   ],
   "license": "MIT",
   "private": true,
   "dependencies": {
+        "jquery": "~1.12.0",
+        "jquery-easing-original": "~1.3.2",
+        "jquery-validation": "~1.14.0",
         "modernizr": "2.8.2",
         "normalize-scss": "~3.0.3",
         "bourbon": "~4.2.3",
@@ -14,6 +17,7 @@
         "font-awesome": "~4.4.0",
         "neat": "~1.7.2",
         
+        "smoothstate": "~0.7.2",
         "slick-carousel": "~1.5.8"
     },
     "overrides": {
@@ -30,6 +34,22 @@
             "main": [
                 "./slick/slick.scss",
                 "./slick/slick.js"
+            ]
+        },
+         "jquery-validation": {
+            "main": [
+                "./dist/jquery.validate.js",
+                "./dist/additional-methods.js"
+            ]
+        },
+        "jquery-easing-original": {
+            "main": [
+                "./jquery.easing.js"
+            ]
+        },
+         "smoothstate": {
+            "main": [
+                "./src/jquery.smoothState.js"
             ]
         }
     }

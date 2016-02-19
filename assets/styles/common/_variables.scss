@@ -18,4 +18,7 @@ $screen-md: new-breakpoint(min-width $screen-md-breakpoint 12);
 $screen-lg: new-breakpoint(min-width $screen-lg-breakpoint 12);
 
 // Colors
-$brand-primary:         #27ae60;
+$primary: green !default;
+$background: black !default;
+$foreground: white !default;
+$grey: grey !default;

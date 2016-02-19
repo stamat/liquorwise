@@ -1,4 +1,12 @@
 <?php
+
+/**
+ * Composer autoloading
+ *
+ * @link https://getcomposer.org
+ */
+require __DIR__ . '/vendor/autoload.php';
+
 /**
  * Sage includes
  *
@@ -25,3 +33,9 @@ foreach ($sage_includes as $file) {
   require_once $filepath;
 }
 unset($file, $filepath);
+
+// Handle theme settings
+$themeSettings = new Bmo\ThemeSettings();
+$themeSettings->registerThemeSettingsPages();
+
+add_action('acf/save_post', [$themeSettings, 'compileAssetsAfterThemeSettingsSave'], 20);

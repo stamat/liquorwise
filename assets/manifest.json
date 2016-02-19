@@ -10,15 +10,7 @@
             "files": [
                 "styles/main.scss"
             ],
-            "bower": [
-                "malihu-custom-scrollbar-plugin"
-            ],
             "main": true
-        },
-        "editor-style.css": {
-            "files": [
-                "styles/editor-style.scss"
-            ]
         },
         "jquery.js": {
             "bower": [
@@ -40,14 +32,23 @@
                 "slick-carousel"
             ]
         },
-        "scrollbar.js": {
+        "jquery-validation.js": {
             "bower": [
-                "jquery-mousewheel",
-                "malihu-custom-scrollbar-plugin"
+                "jquery-validation"
+            ]
+        },
+        "jquery-easing.js": {
+            "bower": [
+                "jquery-easing-original"
+            ]
+        },
+        "smoothstate.js": {
+            "bower": [
+                "smoothstate"
             ]
         }
     },
     "config": {
-        "devUrl": "http://fleuristes.dev"
+        "devUrl": "http://local.dev"
     }
 }
