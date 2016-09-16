@@ -35,7 +35,7 @@ foreach ($sage_includes as $file) {
 unset($file, $filepath);
 
 // Handle theme settings
-$themeSettings = new Bmo\ThemeSettings();
+$themeSettings = new liquorwise\ThemeSettings();
 $themeSettings->registerThemeSettingsPages();
 
 add_action('acf/save_post', [$themeSettings, 'compileAssetsAfterThemeSettingsSave'], 20);
